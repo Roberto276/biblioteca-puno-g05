@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Reserva | SIS302</title><link rel="stylesheet" href="css/estilos.css"></head>
+<body><a class="salto" href="#contenido">Saltar al contenido</a><header><div class="wrap"><strong class="marca">Biblioteca virtual</strong><nav aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="servicios.html">Catálogo</a></nav></div></header><main id="contenido" class="wrap" tabindex="-1"><h1>Reserva de ejemplar</h1><p id="ayuda">Recurso bibliográfico de ejemplo. Usa datos de prueba. Los tres campos son obligatorios. La simulación no registra una reserva real.</p>
+<form id="consulta" action="confirmacion.html" aria-describedby="ayuda">
+<label for="nombre">Nombre</label><input id="nombre" autocomplete="off" required maxlength="80">
+<label for="correo">Correo electrónico</label><input id="correo" type="email" autocomplete="off" required maxlength="120">
+<label for="mensaje">Observaciones de recojo</label><textarea id="mensaje" required maxlength="500" rows="4"></textarea>
+<button class="action" type="submit">Simular reserva</button></form></main><footer class="wrap">SIS302 · Prototipo académico</footer></body></html>
