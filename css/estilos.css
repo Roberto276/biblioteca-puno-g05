@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f7f6; color: #172e29; font: 1rem/1.55 system-ui,sans-serif; }
+header { background: #143b33; color: #fff; }
+.wrap { width: min(100% - 2rem, 54rem); margin-inline: auto; }
+header .wrap { padding-block: 1rem; }
+nav { display: flex; gap: .85rem; flex-wrap: wrap; margin-top: .4rem; }
+nav a, .marca { color: #fff; }
+[aria-current="page"] { text-decoration-thickness: .2em; }
+main { background: #fff; border: 1px solid #d5dfda; border-radius: 1rem; padding: clamp(1rem, 5vw, 3rem); margin-block: 2rem; }
+h1 { line-height: 1.15; font-size: clamp(2rem, 5vw, 3rem); margin-block: 0 1rem; }
+h2 { font-size: 1.35rem; }
+p { max-width: 62ch; }
+article { border: 1px solid #d5dfda; padding: 1.25rem; border-radius: .75rem; }
+a { color: #24534a; }
+.action { display: inline-block; background: #24534a; color: #fff; padding: .65rem 1rem; border-radius: .45rem; border: 0; font: inherit; font-weight: 650; cursor: pointer; }
+label { display: block; font-weight: 650; margin-top: 1rem; }
+input, textarea { width: 100%; max-width: 32rem; display: block; padding: .65rem; font: inherit; border: 1px solid #516760; border-radius: .3rem; }
+form button { margin-top: 1.25rem; }
+:focus-visible { outline: 3px solid #9f4300; outline-offset: 3px; }
+header :focus-visible { outline-color: #fff; }
+.salto { position: absolute; top: -5rem; background: #fff; padding: .5rem; }
+.salto:focus { top: .3rem; }
+footer { padding-bottom: 2rem; }
